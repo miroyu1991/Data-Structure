@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c84c3bf-d3c3-4a4f-ba3b-7b2ea877997c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Changjiang/sort/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Changjiang/sort/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Changjiang/sort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Changjiang/sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Changjiang/sort/ShellSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data Structure/Changjiang/queue/ArrayQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data Structure/Changjiang/queue/ArrayQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data Structure/Changjiang/queue/CircleQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data Structure/Changjiang/queue/CircleQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Data Structure/Changjiang/queue/CircleQueueDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Data Structure/Changjiang/queue/CircleQueueDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Changjiang/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Changjiang/sort/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Changjiang/sort/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Changjiang/sort/SelectSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,20 +41,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
-  <component name="RunManager" selected="Application.SelectSort">
-    <configuration name="ArrayQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Changjiang.queue.ArrayQueueDemo" />
-      <module name="Data Structure" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Changjiang.queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ShellSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Changjiang.sort.BubbleSort" />
       <module name="Data Structure" />
@@ -82,6 +68,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Changjiang.sort.InsertSort" />
+      <module name="Data Structure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Changjiang.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Changjiang.sort.SelectSort" />
       <module name="Data Structure" />
@@ -95,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparseArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Changjiang.sparsearray.SparseArrayDemo" />
+    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Changjiang.sort.ShellSort" />
       <module name="Data Structure" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Changjiang.sparsearray.*" />
+          <option name="PATTERN" value="Changjiang.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShellSort" />
+        <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.CircleQueueDemo" />
-        <item itemvalue="Application.ArrayQueueDemo" />
-        <item itemvalue="Application.SparseArrayDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -148,22 +147,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="441" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1591381194538" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1591584541172">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1591589151914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591584541172" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1591584541172">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1591589151914" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1591589151914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591584541172" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1591584541171">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1591589151914" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1591589151914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591584541171" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1591584541172">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1591589151914" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1591589151914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591584541172" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1591589151914" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1591582100720">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

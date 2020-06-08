@@ -24,7 +24,7 @@ public class SelectSort {
         exchange this number with arr[0]
         2. From arr[1] to arr[n-1], repeat step [1]
 
-        O(n^2)
+        Time complexity : O(n^2)
      */
     public static void selectSort(int[] arr) {
 

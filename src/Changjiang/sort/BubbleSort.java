@@ -28,7 +28,7 @@ public class BubbleSort {
         Until every number is in order:
             No more exchange or round arr.length - 1 times.
 
-        O(n^2)
+        Time complexity : O(n^2)
      */
     public static void bubbleSort(int[] arr){
         int temp = 0;
