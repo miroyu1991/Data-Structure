@@ -1,15 +1,13 @@
 package Changjiang.sort;
 
-import java.util.Arrays;
-
 public class ShellSort {
     public static void main(String[] args) {
-        int[] arr = new int[8];
+        int[] arr = new int[80000];
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = (int) (Math.random() * 10);
+            arr[i] = (int) (Math.random() * 10000);
         }
 
-        System.out.println(Arrays.toString(arr));
+        //System.out.println(Arrays.toString(arr));
         // test time that used
         long startTime = System.currentTimeMillis();
 
@@ -17,7 +15,7 @@ public class ShellSort {
 
         long endTime = System.currentTimeMillis();
         System.out.println("Select Sort uses " + (endTime - startTime) + "ms to finish sort");
-        System.out.println(Arrays.toString(arr));
+        //System.out.println(Arrays.toString(arr));
     }
 
     /*
@@ -41,6 +39,7 @@ public class ShellSort {
                 int insertIndex = i;
 
                 if (arr[insertIndex] < arr[insertIndex - gap]){
+                    // check the position to insert
                     while (insertIndex - gap >= 0 && insertVal < arr[insertIndex - gap]) {
                         // move
                         arr[insertIndex] = arr[insertIndex - gap];
